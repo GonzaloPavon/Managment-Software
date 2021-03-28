@@ -1,0 +1,66 @@
+.HomeScreen  {
+  width: 90%;
+  max-width: 1000px;
+  margin: 5%  auto;
+  margin-top: 0px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3,  1fr);
+  color: #efefef;
+}
+
+.HomeCard  {
+  margin-top: 1px;
+  grid-column:  2 / 3;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(97, 218, 251, 0.5);
+  transition: 0.3s;
+  background-color:  #2b2f38;
+}
+
+.HomeCard:Hover  {
+  box-shadow: 0 8px 16px 0 rgba(97, 218, 251, 0.5);
+}
+
+.HomeContainer {
+  display: grid;
+  padding: 2px 16px;
+  grid-template-areas: "HomeTitle"
+                       "HomeBody";
+}
+.HomeTitle  {
+  grid-area: HomeTitle;
+  text-align: center;
+  margin-bottom: 4%;
+}
+.HomeBody {
+  grid-area:  HomeBody;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-gap: 20px;
+}
+.HomeNavLink {
+  text-decoration: none;
+  color:  #474d5c;
+  background-color: #57c3de;
+  border-radius: 2px;
+  padding: 14px 20px;
+  margin: 15px  0px  15px  0px;
+  cursor: pointer;
+}
+
+.HomeNavLink:hover{
+  background-color: #efefef;
+}
+
+@media screen and (max-width: 768px) {
+  .HomeCard{
+    margin-top: 3%;
+    grid-column: 1 /  4;
+  }
+  .HomeNavLink {
+    font-weight: bold;
+  }
+}

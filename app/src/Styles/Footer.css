@@ -1,0 +1,13 @@
+.Footer{
+  width: 100%;
+  height: 60px;
+  background-color: #2b2f38;
+  grid-area: FooterApp;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+.Footer  p{
+  align-items:center;
+}

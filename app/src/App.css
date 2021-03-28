@@ -1,0 +1,15 @@
+.IndexMaster {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #efefef;
+  font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.AppRoutes{
+  grid-area:  MainApp;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+}

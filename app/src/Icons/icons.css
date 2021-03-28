@@ -1,0 +1,42 @@
+/*Configuracion de los iconos*/
+.iconMenu {
+  margin: 5px;
+  height: 48px;
+  width: 48px;
+  border: none;
+  cursor: pointer;
+  background: url("Menu.svg") no-repeat top left;
+  background-size: contain;
+}
+.ButtonIcon{
+  border-radius: 5px;
+  border:0px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ButtonIcon:hover{
+  background-color: #EFEFEF;
+}
+.ButtonIcon:hover  >  #Delete  line{
+  stroke:#57c3de;
+  fill:#57c3de;
+}
+.ButtonIcon:hover  >  #Delete  rect{
+  stroke:#57c3de;
+  fill:#57c3de;
+}
+.ButtonIcon:hover  >  #Edit  polyline{
+  stroke:#57c3de;
+  fill:#57c3de;
+}
+.ButtonIcon:hover  >  #Edit  polygon{
+  stroke:#57c3de;
+  fill:#57c3de;
+}
+.ButtonIcon:hover  >  #Edit  rect{
+  stroke:#57c3de;
+  fill:#57c3de;
+}

@@ -1,0 +1,6 @@
+@import "./Navigation/NavigationMaster.css";
+@import url(Home.css);
+@import url(ProductManagment.css);
+@import url(ProductList.css);
+@import url(Calculate.css);
+@import url(Footer.css);

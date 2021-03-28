@@ -1,0 +1,57 @@
+/*Barra de navegacion //  La 'E' significa Escritorio y la  'M' Mobile*/
+.Navbar{
+  grid-area: NavApp;
+  height: 60px;
+}
+
+/*Comienza  la  barra de navegacion correspondiente a dispositivos de escritorio*/
+.NavbarUlE{
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  margin-top: 0px;
+  font-size: 25px;
+  border: 3px solid #2b2f38;
+  background-color: #2b2f38;
+  list-style:none;
+  text-decoration: none;
+}
+.NavbarLogoE{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 5%;
+  margin-right: auto;
+}
+.NavbarNavLinkLogoE{
+  display: flex;
+  align-items: center;
+  padding:  0px  15px  0px 15px;
+  height: 100%;
+  color: white;
+  list-style:none;
+  text-decoration: none;
+}
+.NavbarLiListE{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+.NavbarNavLinkE{
+  display: flex;
+  align-items: center;
+  padding:  0px  15px  0px 15px;
+  height: 100%;
+  color: white;
+  list-style:none;
+  text-decoration: none;
+}
+
+/*Comienza la seccion interactiva con el escritorio*/
+.NavbarLiE:hover  > .NavbarNavLinkE, .NavbarLogoE:hover > .NavbarNavLinkLogoE{
+  color: #61dafb;
+  border-bottom: 4px solid #61dafb;
+}
+.active {
+  color:    #61dafb;
+  border-bottom: 4px  solid    #61dafb;
+}

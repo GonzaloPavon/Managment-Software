@@ -1,0 +1,73 @@
+/*Comienza  la  barra de navegacion correspondiente a dispositivos moviles*/
+.NavbarUlM{
+  z-index:10;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  background-color: #2b2f38;
+}
+.NavbarMenuM{
+  display: flex;
+  justify-content: flex-end;
+  height: 45px;
+  font-size: 20px;
+  align-items: center;
+}
+.NavbarLogoM, .NavbarNavLinkM{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 5%;
+  height: 100%;
+  list-style:none;
+  text-decoration: none;
+  color: white;
+}
+.iconMenu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+.NavbarLiListM{
+  position:relative;
+  z-index:10;
+  height: 300px;
+  width: 100%;
+  background-color: #373c47;
+}
+.NavbarLiM{
+  margin-left: 5%;
+  list-style:none;
+  text-decoration: none;
+}
+.NavbarNavLinkM{
+  display: flex;
+  align-items: center;
+  margin: 0%;
+  padding:  20px  0px  20px 0px;
+  padding-left: 0px;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+/*Responsive*/
+@media only screen and (max-width: 755px){
+  .Navbar{
+    margin: 0px;
+    padding: 0px;
+  }
+  .NavbarUlE{
+    display: none;
+  }
+  .NavbarUlM{
+    display: block;
+  }
+  .active{
+    color:    #61dafb;
+    border-bottom: 0px  solid    #61dafb;
+  }
+}

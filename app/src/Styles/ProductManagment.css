@@ -1,0 +1,39 @@
+.PMTitle{
+  text-align: center;
+  font-size: 25px;
+}
+.PMForm input{
+  margin-top: 5px;
+  border: 1px solid #414754;
+  font-size: 16px;
+  color: #e3e1df;
+  background-color: #414754;
+  padding: 6px 0px 6px 0px;
+  width: 100%;
+  border-radius: 3px;
+}
+.PMForm button{
+  color:  #474d5c;
+  height: 35px;
+  border: none;
+  background-color: #57c3de;
+  border-radius: 2px;
+  width: 100%;
+  margin: 15px  0px  15px  0px;
+  cursor: pointer;
+}
+.PMForm button:hover{
+  background-color: #efefef;
+}
+/*Quitar los spinners*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

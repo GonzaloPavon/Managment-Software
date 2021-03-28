@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Config" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="4.635" y="4.615" width="38.73" height="38.771">
+		
+			<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="source" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="4.635" y="4.615" width="38.73" height="38.771" id="SVGID_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+		<circle fill="#FFFFFF" cx="24" cy="24" r="9.742"/>
+	</g>
+</mask>
+<g mask="url(#SVGID_1_)">
+	<path fill="#EFEFEF" stroke="#EFEFEF" stroke-linejoin="bevel" stroke-miterlimit="10" d="M42.88,28.822
+		c-0.457,1.822-1.188,3.546-2.133,5.124c-1.909-1.49-4.667-1.364-6.421,0.391c-1.763,1.763-1.898,4.52-0.409,6.43
+		c-1.539,0.916-3.224,1.627-4.997,2.084c-0.302-2.406-2.357-4.247-4.842-4.237c-2.494,0.01-4.53,1.88-4.813,4.287
+		c-1.919-0.478-3.722-1.238-5.368-2.241c1.5-1.899,1.403-4.656-0.341-6.43c-1.734-1.773-4.481-1.939-6.41-0.478
+		c-0.896-1.52-1.579-3.186-2.026-4.93C7.526,28.54,9.387,26.484,9.387,24s-1.861-4.54-4.267-4.823
+		c0.458-1.821,1.188-3.545,2.133-5.124c1.91,1.49,4.667,1.364,6.42-0.39c1.763-1.763,1.9-4.521,0.409-6.43
+		c1.539-0.916,3.225-1.627,4.998-2.085c0.301,2.406,2.357,4.247,4.852,4.238c2.484-0.01,4.52-1.881,4.803-4.287
+		c1.87,0.468,3.643,1.208,5.26,2.183c-1.559,1.899-1.471,4.696,0.292,6.498c1.764,1.802,4.599,1.938,6.527,0.38
+		c0.916,1.549,1.617,3.234,2.065,5.017c-2.406,0.283-4.267,2.339-4.267,4.823S40.474,28.54,42.88,28.822z"/>
+</g>
+</svg>
